@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<#list ${1} as ${2}>
-	${3}
+<#list ${1:collection} as ${2:variable}>
+	${3:execute}
 </#list>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
